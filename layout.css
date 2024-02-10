@@ -1,0 +1,88 @@
+*, html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fcontainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    width: 1500px;
+    height: 80px;
+    background-color: black;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, o, 0.5);
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname{
+color:  crimson;
+font-size: 50px;
+}
+
+.lastname{
+    color: burlywood;
+    font-size: 50px;
+    padding-left: 4px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+ list-style-type: none;
+ padding: 15px;
+}
+
+.navigation > li > a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation > li > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.navigation > li > img:hover{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all .3s ease-in-out;
+}
+
+.navigation>li>a:hover{
+    background-color: coral;
+    transition: all .6s ease-in-out;
+}
+
+.active{
+    background-color: coral;
+    color: white;
+    padding: 15px;
+}
+
+.active:hover{
+    color: wheat !important ;
+}
